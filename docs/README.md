@@ -1,5 +1,7 @@
 # HACKATON_0
 
+# Adrian Poma Torres
+
 # Mario Urpay 
 # Alumno de CS con codigo 202410526
 
@@ -8,6 +10,6 @@
 
 # Steve Ricapa
 
-# Hola soy Steve
+
 
 
