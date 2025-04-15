@@ -1,10 +1,16 @@
+def suma(a, b):
+    return a + b
+
+def resta(a, b):
+    return a - b
+
+def multiplicacion(a, b):
+    return a * b
+
 def division(a, b):
     if b == 0:
         return "Error: División por cero"
     return a / b
-
-
-
 
 def calculate(operacion: str) -> float:
     operadores = {'+': suma, '-': resta, '*': multiplicacion, '/': division}
@@ -19,5 +25,4 @@ def calculate(operacion: str) -> float:
                     return funcion(a, b)
                 except ValueError:
                     return "Error: Números inválidos"
-    return "Error: Operación no válida
-
+    return "Error: Operación no válida"
