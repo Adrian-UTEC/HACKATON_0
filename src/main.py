@@ -1,4 +1,13 @@
 
+
+def resta(a, b):
+    return a - b
+
+
+def calculate(operacion: str) -> float:
+    operadores = {'+': suma, '-': resta, '*': multiplicacion, '/': division}
+    
+
 def suma(a, b):
     return a + b
 
