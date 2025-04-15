@@ -1,29 +1,20 @@
-
+def suma(a, b):
+    return a + b
 
 def resta(a, b):
     return a - b
 
-
-def calculate(operacion: str) -> float:
-    operadores = {'+': suma, '-': resta, '*': multiplicacion, '/': division}
-    
-
-def suma(a, b):
-    return a + b
-
-
-
-
-def calculate(operacion: str) -> float:
-    operadores = {'+': suma, '-': resta, '*': multiplicacion, '/': division}
-
 def multiplicacion(a, b):
     return a * b
 
+def division(a, b):
+    if b == 0:
+        return "Error: División por cero"
+    return a / b
+
 def calculate(operacion: str) -> float:
     operadores = {'+': suma, '-': resta, '*': multiplicacion, '/': division}
     
-
     for simbolo, funcion in operadores.items():
         if simbolo in operacion:
             partes = operacion.split(simbolo)
