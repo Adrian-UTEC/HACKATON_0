@@ -1,11 +1,19 @@
+
 def suma(a, b):
     return a + b
 
-ls
+
 
 
 def calculate(operacion: str) -> float:
     operadores = {'+': suma, '-': resta, '*': multiplicacion, '/': division}
+
+def multiplicacion(a, b):
+    return a * b
+
+def calculate(operacion: str) -> float:
+    operadores = {'+': suma, '-': resta, '*': multiplicacion, '/': division}
+    
 
     for simbolo, funcion in operadores.items():
         if simbolo in operacion:
